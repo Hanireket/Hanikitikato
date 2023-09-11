@@ -1,4 +1,6 @@
-
+body {
+    background-color: black;
+}
 
 /* ------------------------------------------------------------------------------------- */
 
@@ -89,16 +91,24 @@ section {
     margin: 0 auto;
     margin-top: 25px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 section .card {
+    background: purple;
     height: 400px;
-    width: 900px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-
+section .card img {
+    height: 350px;
+    width: 350px;
+    margin: 15px;
+}
 
 
 
