@@ -5,7 +5,31 @@
     width: 118rem;
     margin: 0 auto;
     margin-top: 25px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+
+
+    .contact {
+       
+        grid-column: 1;
+        
+
+    }
+
+    .subscribe {
+        
+        grid-column: 2;
+    }
+
+    .social {
+       
+        grid-column: 3;
+
+    }
+
+
+
+
 }
