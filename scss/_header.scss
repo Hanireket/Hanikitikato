@@ -1,0 +1,60 @@
+header {
+    background: purple;
+    height: 170px;
+    width: 118rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    
+}
+
+header  {
+
+    nav{
+
+        background: plum;
+        width: 100%;
+        height: 80%;
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+    }
+    
+    .logo {
+        background: aqua;
+        margin-left: 5px;
+        display: flex;
+        font-size: 2rem;
+    
+            a {
+                text-decoration: none;
+            }
+            
+            img {
+                
+                height: 6rem;
+                width: auto;
+                margin-left: 5px;
+            }
+    }
+
+    .logob img {
+    
+        height: 6rem;
+        width: 400px;
+    }
+
+    .actions {
+        height: 6rem;
+        width: 500px;
+        margin-right: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        font-size: 1.2rem;
+    } 
+}
