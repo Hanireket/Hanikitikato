@@ -52,21 +52,10 @@ header .actions {
   width: 118rem;
   margin: 0 auto;
   margin-top: 25px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(50px, auto);
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
-.footer .contact {
-  grid-column: 1;
-}
-.footer .subscribe {
-  grid-column: 2;
-}
-.footer .social {
-  grid-column: 3;
-}
-
 main {
   background: rgb(255, 123, 255);
   height: 500px;
