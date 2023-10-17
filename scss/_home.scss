@@ -47,30 +47,42 @@ main {
 
 .channels {
     
-    background: pink;
+    background: purple;
     height: 500px;
     width: 118rem;
     margin: 0 auto;
     margin-top: 25px;
+    text-align: center;
+    
+    h3 {
+        height: 80px;
+        width: 118rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    div {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 
 
-    .nav-link {
+        .nav-link {
 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        img {
+            height: 300px;
+            width: 300px;
+            margin-top: 15px;
+        }
+
     }
-
-    img {
-        height: 300px;
-        width: 300px;
-        margin-top: 15px;
-    }
-
-    
 
 
 }

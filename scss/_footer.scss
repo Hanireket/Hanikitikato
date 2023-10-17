@@ -1,6 +1,6 @@
 .footer {
     
-    background: violet;
+    background: rgb(255, 123, 255);
     height: 80px;
     width: 118rem;
     margin: 0 auto;
@@ -8,22 +8,29 @@
     text-align: center;
     display: flex;
     justify-content: space-around;
+    align-self: center;
     
 
     .contact {
        
-        
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
 
     }
 
     .subscribe {
         
-        
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
     }
 
     .social {
        
-        
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
 
     }
 
